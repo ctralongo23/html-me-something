@@ -9,22 +9,29 @@ body {
 
 
 h1 {
+    padding-top:50px;
     margin:0px;
     padding-bottom: 5px;
+    text-align:center;
 }
 
-h3{
+h2, h3{
+    padding-top:20px;
     margin:0px;
     padding-bottom: 20px;
+    text-align:center;
 }
 
-.snapshot {
+.snapshot  {
     text-align: center;
 }
 
 .snapshot1 {
     text-align:justify;
-    padding-left:100px;
+    padding-left:40px;
+    margin-left:0;
+    margin-right:200px;
+    margin-top:25px;
     
 }
 .I{
@@ -33,5 +40,47 @@ h3{
 
 a{
     color:black;
-    text-decoration:none;
+    
     }
+
+.max {
+float:left;
+width:210px;
+height:210px;
+padding-right:100px;
+padding-left: 100px;
+}
+
+tr, td{
+    width:25%;
+}
+
+table{
+    padding-left:275px;
+    padding-bottom:20px;
+}
+
+
+.quick {
+    padding-left:520px;
+    font-size:15px;
+}    
+
+.smoke {
+    background: url("../images/smokelight.png");
+    background-size: 100% 100%;
+    width:100%
+    color:black;
+    padding-left:50px;
+    padding-right:50px;
+    margin-left:100px;
+    margin-right:100px;
+   
+    
+}
+
+.past-desc{
+    text-align:justify;
+    margin-right:50px;
+    margin-left:50px;
+}
