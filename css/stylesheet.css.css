@@ -2,6 +2,7 @@
 
 body {
     background-image: url('../images/purple.jpg.jpg');
+    background-size:100% 100%;
     background-blend-mode: darken;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -79,8 +80,8 @@ table{
     
 }
 
-.past-desc{
+.past-desc, .curr-desc{
     text-align:justify;
-    margin-right:50px;
-    margin-left:50px;
+    margin-right:75px;
+    margin-left:75px;
 }
