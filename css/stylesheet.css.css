@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background-image: url('../images/purple.jpg.jpg');
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 
+{
+    margin:0px;
+    padding-bottom: 5px;
+}
+
+h3{
+    margin:0px;
+    padding-bottom: 20px;
+}
+
+.snapshot {
+    text-align: center;
+}
