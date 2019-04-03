@@ -9,12 +9,23 @@
     </head>    
 
     <body>
-
+                <ul class="menu">
+                <li> <a href="#about-me">About Me</a></li>
+                <li class="line">/</li>
+                <li><a href="#past-proj">Past Projects</a></li>
+                <li class="line">/</li>
+                <li><a href="#current-proj">Current Projects</a></li>
+                <li class="line">/</li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        
+        
+        
         <h1>Hi! My Name is Cayleigh</h1>
         <h3>I have a passion for the web, cats and beer!</h3>
         <div class="smoke">
             <header>
-                <h2 class="snapshot">A Quick Snapshot</h2>
+                <h2 class="snapshot" id="about-me">A Quick Snapshot</h2>
             </header>    
                 <p class= "snapshot1">
                     <img class="max" src="images/maxncay.jpg"/>
@@ -25,7 +36,7 @@
                     we share a passion for our pets (3 cats and 2 dogs), anything outdoors, video games, beer and, of course, web development. 
                 </p>
 
-                <table class="table"> <span class="quick"><strong>Quick Facts</strong></span>
+                <table class="table-snap"> <span class="quick"><strong>Quick Facts</strong></span>
                         <tr>
                           <td>Favorite Food:</td>
                           <td>Tacos</td> 
@@ -58,27 +69,32 @@
                     </p>
                 </article>
                 <main>
-                    <table>
+                    <table class="pst">
                         <tr>
                             <td>
                                 <a target="_blank"  href="http://theanonymousbartender.com/">The Anonymous Bartender</a>
                             </td>
                             <td>
-                                <a target="_blank" href="https://dirtycrowinnmemphis.com">The Dirty Crow Inn</a>
+                                <a target="_blank" href="http://dirtycrowinnmemphis.com/">The Dirty Crow Inn</a>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <a target="_blank"  href="https://theanonymousbartender.com"><img src="images/tab.png"/></a>
+                                <a target="_blank"  href="http://theanonymousbartender.com/"><img class ="tab" src="images/tab.png"/></a>
                             </td>
-                            <td>The Dirty Crow Inn</td>
+                            <td>
+                                <a target="_blank" href="http://dirtycrowinnmemphis.com/"><img class="dic" src="images/dci.png"/>  </a>
+                            </td>
                         </tr>
                         <tr>
-                            <td>Beginner's consult on the creation of The Anonymous Bartender.  This is a personal project that is still evolving
+                            <td class="tabdes">Beginner's consult on the creation of The Anonymous Bartender.  This is a personal project that is still evolving
                                     outside of web development.  It is set up to be the host page for a podcast that is currently in production and building
                                     up a following.  It is considered a beginners consulting project due the help I provided and initial building but main framework
                                     and harder coding was done by a seasoned web developer as a free-lance project.</td>
-                            <td>The Dirty Crow Inn was a quick project started and completed December 2018.  It was a personal challenge
+
+
+
+                            <td class="tabdes">The Dirty Crow Inn was a quick project started and completed December 2018.  It was a personal challenge
                                     to create a website that was simple but expressed the purpose of a business I had a personal connection to.  To date
                                     the website is still in active use by the busisness owner to represent his online presence, menu and event calendar.</td>    
                         </tr>
@@ -92,56 +108,50 @@
                 <h2>Current Projects</h2>
             </header>
             <article>
-                <p class="curr-desc">
-                    Since I am always working to expand my craft I am currently immersed in a number of projects.  Each project seeks to reinforce
-                    what I already know but it also teaches me new things.  I learn a lot from my mistakes and have been known to look at past code from 
-                    exervices I have done as well as use every resource in the world to make my code more complete.  These are projects are all still in
-                    their infancy but I am excited to see the path each one will take to completion.
-                </p>      
-            </article>
-            <main>
-                <table>
-                    <tr>
-                        <td>Launch Code</td>
-                    </tr>
-                    <tr>
-                        <td>Launch Code Description</td>
-                    </tr>
-                    <tr>
-                        <td>Mini Momentos</td>
-                        <td>Inpurrnet</td>
-                    </tr> 
-                    <tr>
-                        <td>From start to finish a pro bono website being created for a business acquaintance to showcase
-                                their self-employed livelyhood.  This project is currently in brainstorm phase while I wait for client to return information regarding
-                                content, purpose, images, color scheme.  It will eventually be a platform to demonstrate Artist Bio, Current Artist Work and will become
-                                 online store.  This will be coupled with the onboarding of Word Press and Shopify.
-                            </td>
-                        <td>
-                                The development of my personal website - Inpurrnet.  Creation of a platform to identify myself 
-                                as a freelancer to jumpstart a career in front end web development.  Current page is the template for moving into 
-                                the final product.
-                        </td>    
-                    </tr>
-                    <tr>
-                        <td>Bodine Elementary</td>
-                    </tr>
-                    <tr>
-                        <td>Bodine Elementary Description Bodine Elementary School (a 501c3 project) - with the help of established web developer we are in the process of 
-                                !--completely creating a new website that demonstrates the purpose and value of the school and addresses all the information
-                                !-- needed to be dsplayed by an educational facility.  This project will delve deeper into UX/UI elements and push my personal limits
-                                !-- and use of HTML, CSS, Java, Javascript, Content Management and much more.</td>
+                    <p class="curr-desc">
+                        Since I am always working to expand my craft I am currently immersed in a number of projects.  Each project seeks to reinforce
+                        what I already know but it also teaches me new things.  I learn a lot from my mistakes and have been known to look at past code from 
+                        exervices I have done as well as use every resource in the world to make my code more complete.  These are projects are all still in
+                        their infancy but I am excited to see the path each one will take to completion.
+                    </p>      
+                </article>
+                <main>
+                    <div class="launch">
+                        <img src="images/launch.png"/>
+                        <h3>Launch Code</h3>
+                        <p>A great platform where I am learning how to incorporate back end development with front end HTML/CSS and other web development applications.  Very challanging and very useful course. </p>
+                    </div>
+                    <div class="mini">
+                         <img src="images/mini.jpg"/>
+                        <h3>Mini Momentos</h3>
+                        <p>From start to finish a pro bono website being created for a business acquaintance to showcase
+                            their self-employed livelyhood.  This project is currently in brainstorm phase while I wait for client to return information regarding
+                            content, purpose, images, color scheme.  It will eventually be a platform to demonstrate Artist Bio, Current Artist Work and will become
+                             online store.  This will be coupled with the onboarding of Word Press and Shopify.</p>
+                    </div>
+                    <div class="inpurrnet">
+                            <img src="images/mine.png"/>
+                            <h3>Inpurrnet</h3>
+                            <p>The development of my personal website - Inpurrnet.  Creation of a platform to identify myself 
+                            as a freelancer to jumpstart a career in front end web development.  Current page is the template for moving into 
+                            the final product. </p>  
+                    </div>
+                    <div class="bodine">   
+                        <img src="images/bodine.png"/>
+                        <h3>Bodine Elementary</h3>    
+                        <p>Bodine Elementary Description Bodine Elementary School (a 501c3 project) - with the help of established web developer we are in the process of 
+                            completely creating a new website that demonstrates the purpose and value of the school and addresses all the information
+                            needed to be dsplayed by an educational facility.  This project will delve deeper into UX/UI elements and push my personal limits
+                             and use of HTML, CSS, Java, Javascript, Content Management and much more.</p>
+                        </div>
+                </main>
 
-                </table>
-            </main>  
         </div>
+        <div id="contact-me">
+                <h1>How to Find Me</h1>
+                <h3><a href="mailto:ctralongo@gmail.com">Email: ctralongo23@gmail.com</a><span> <a href="tel:9018968877">Cell: 901-896-9977</a></span></h3>
+        </div>    
+
 </body>
 </html> 
 
-
-
-
-
-
-!-- Image by <a href="https://pixabay.com/users/BarbaraALane-756613/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2110023">Barbara A Lane</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2110023">Pixabay</a>
-https://pixabay.com/photos/smoke-black-background-white-2437886/
