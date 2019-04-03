@@ -2,11 +2,13 @@
 
 body {
     background-image: url('../images/purple.jpg.jpg');
+    background-blend-mode: darken;
     font-family: 'Montserrat', sans-serif;
-}
+    font-weight: bold;
+}     
 
-h1 
-{
+
+h1 {
     margin:0px;
     padding-bottom: 5px;
 }
@@ -19,3 +21,17 @@ h3{
 .snapshot {
     text-align: center;
 }
+
+.snapshot1 {
+    text-align:justify;
+    padding-left:100px;
+    
+}
+.I{
+    font-size:35px;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+    }
